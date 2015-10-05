@@ -1,0 +1,153 @@
+@import url(reset.css);
+
+html{
+	height: 100%;
+}
+body{
+	font-family: Tahoma, Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+	background: url(../images/shadow-body.png) 50% 0% repeat-y, #fc6;
+}
+#wrapper{
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	background: #fff;
+}
+#wrapper,
+#footer{
+	width: 913px;
+	border-left: 4px solid #f93;
+	border-right: 4px solid #f93;
+}
+/*Start header*/
+#header{
+	height: 130px;
+	width: 913px;
+	margin: 0 auto;
+	background: url(../images/bg-header.png) no-repeat;
+}
+#header a{
+	text-decoration: none;
+}
+.logo{
+	width: 290px;
+	height: 104px;
+	background: url(../images/logo.png) no-repeat;
+	float: left;
+	margin-left: -4px;
+}
+#nav{
+	width: 494px;
+	height: 72px;
+	float: right;
+}
+#nav ul{
+	margin: 65px 0 0 10px;
+	text-align: center;
+}
+#nav li{
+	display: inline;
+	margin-right: 22px;
+}
+#nav a{
+	font-size: 20px;
+	color: #fff;
+	background: url(../images/arrow.png)  0% 70% no-repeat;
+	padding-left: 14px;
+}
+/*End header*/
+/*Start middle*/
+#middle{
+	width: 100%;
+	padding: 0 0 209px;
+	position: relative;
+}
+#middle:after{
+	display: table;
+	clear: both;
+	content: '';
+}
+.container{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#content{
+	padding: 10px 270px 0 7px;
+	color: #333;
+	font-size: 20px;
+}
+#content section{
+	margin-bottom: 47px;
+}
+#content h2{
+	font-size: 25px;
+	margin-bottom: 11px;
+}
+#content h2,
+#content a{
+	color: #f60;
+}
+#content p{
+	margin-bottom: 12px;
+}
+#content a{
+	font-size: 15px;
+	background: url(../images/next.png) 100% 70% no-repeat;
+	padding-right: 17px;
+}
+/*End middle*/
+/*Start right sidebar*/
+#right-sidebar{
+	margin-top: -16px;
+	width: 239px;
+	float: right;
+	margin-left: -239px;
+	position: relative;
+}
+.left-border{
+	padding: 16px 10px 14px 0;
+	border-left: 2px solid #f60;
+	text-align: right;
+}
+.left-border h2{
+	color: #630;
+	margin: 13px 0 12px;
+	height: 33px;
+	font-size: 33px;
+}
+.left-border li{
+	margin-bottom: 20px;
+}
+.left-border a{
+	font-size: 22px;
+	letter-spacing: -0.8px;
+	color: #ff9933;
+}
+.border-picture{
+	background: url(../images/milk.png), url(../images/border-bottom.png);
+	width: 240px;
+	height: 320px;
+	margin-left: -1px;
+}
+/*End right sidebar*/
+/*Start footer*/
+#footer{
+	margin: -209px auto 0;
+	height: 209px;
+	background: url(../images/bg-footer.png);
+	position: relative;
+}
+#footer p{
+	margin: 173px 0 0 331px;
+	display: inline-block;
+	font-size: 14px;
+}
+#footer p,
+#footer a{
+	color: #fff;
+}
+/*End footer*/
